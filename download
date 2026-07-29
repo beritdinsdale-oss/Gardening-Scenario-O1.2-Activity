@@ -1,0 +1,10 @@
+# Assets folder
+
+The current activity uses text and Unicode symbols, so no image or audio files are required.
+
+This file is included so the folder is visible in GitHub and so future maintainers know that the empty folder is intentional. If images are added later:
+
+- use appropriately licensed images
+- optimize file size
+- add meaningful alternative text in the HTML or scenario data
+- avoid putting essential information in images alone
