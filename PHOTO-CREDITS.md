@@ -12,9 +12,8 @@ All photographs are stored locally in the `assets` folder so the activity does n
 
 1. **A Hot Weekend**
    - File: `assets/scenario-1-hot-weekend.jpg`
-   - Southern Foodways Alliance
-   - Creative Commons Attribution 2.0
-   - Source: Wikimedia Commons, `File:Vegetable garden detail.jpg`
+   - Sarolta Nagy
+   - Source: Adobe Stock
 
 2. **Earlier Bloom Over Time**
    - File: `assets/scenario-2-earlier-bloom.jpg`
@@ -30,9 +29,8 @@ All photographs are stored locally in the `assets` folder so the activity does n
 
 4. **Maria's Garden in Transition**
    - File: `assets/scenario-4-hydrangea.jpg`
-   - Stan Shebs
-   - Creative Commons Attribution-ShareAlike 3.0
-   - Source: Wikimedia Commons, `File:Hydrangea macrophylla Blauer Prinz 1.jpg`
+   - nazuna art
+   - Source: Adobe Stock
 
 5. **From Observation to Adaptation**
    - File: `assets/scenario-5-adaptation-garden.jpg`
