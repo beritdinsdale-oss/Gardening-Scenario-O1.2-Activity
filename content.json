@@ -1,0 +1,263 @@
+{
+  "activity": {
+    "browserTitle": "Garden Detective",
+    "intro": {
+      "eyebrow": "Interactive garden investigation",
+      "title": "Garden Detective",
+      "subtitle": "What’s changing in our gardens—and what can careful observation tell us?",
+      "description": "Use garden observations to decide whether the evidence points to a short-term weather event, a long-term climate pattern, or whether more evidence is needed.",
+      "objectiveLabel": "Learning objective:",
+      "objective": "Recognize that climate adaptation can begin with simple, careful observation.",
+      "howItWorksHeading": "How it works",
+      "instructions": [
+        "You will examine five garden situations and decide what the available evidence supports.",
+        "Some choices will invite you to reconsider the evidence before moving forward. Mistakes are part of the learning process."
+      ],
+      "startButton": "Begin the investigation",
+      "heroImage": {
+        "src": "assets/gardentour125.jpg",
+        "alt": "A sunny teaching garden with rows of vegetables, flowers, paths, irrigation lines, and plant labels.",
+        "credit": "Photo: Joe Kline, Oregon State University"
+      }
+    },
+    "labels": {
+      "scenarioEyebrow": "Examine the evidence",
+      "evidenceHeading": "Evidence available",
+      "choiceGroup": "Choose the best conclusion",
+      "choiceHint": "Choose the response best supported by the evidence—not necessarily the response that feels most certain.",
+      "correctEyebrow": "Evidence review",
+      "correctHeading": "Evidence review",
+      "observationPractice": "Observation practice:",
+      "coachingEyebrow": "Consider this",
+      "coachingTitle": "Reconsider the evidence",
+      "coachingHeading": "Consider this",
+      "coachingPrompt": "Ask yourself:",
+      "coachingQuestion": "Does the evidence describe a short event, a repeated long-term pattern, or a situation where the broader pattern remains uncertain?",
+      "retryButton": "Return to the scenario",
+      "continueButton": "Continue to the next scenario",
+      "completeButton": "Complete the activity",
+      "progressScenario": "Scenario",
+      "progressOf": "of"
+    },
+    "completion": {
+      "eyebrow": "Investigation complete",
+      "title": "Observation is the beginning of adaptation",
+      "description": "You practiced separating short-term events from long-term patterns while recognizing when the available evidence remains incomplete.",
+      "summaryCards": [
+        {
+          "title": "Weather",
+          "text": "Conditions or events over days, weeks, or a season."
+        },
+        {
+          "title": "Climate",
+          "text": "Patterns and trends that emerge across many years."
+        },
+        {
+          "title": "Adaptation",
+          "text": "Can begin with recording observations and testing low-risk responses."
+        }
+      ],
+      "scorePrefix": "First-choice indicator:",
+      "scoreSuffix": "conclusions were supported on the first attempt. This activity is ungraded.",
+      "reflectionLabel": "What is one observation you could begin recording in your own garden or landscape this season?",
+      "reflectionPlaceholder": "For example: first bloom date, soil moisture, irrigation frequency, heat damage, or pollinator timing.",
+      "reflectionNote": "This reflection stays in your browser and is not submitted to Canvas.",
+      "printButton": "Print or save this screen",
+      "restartButton": "Restart activity"
+    },
+    "messages": {
+      "loadErrorTitle": "The activity content could not be loaded",
+      "loadErrorText": "Open this activity through GitHub Pages or a local web server. Browsers usually block content.json when index.html is opened directly from a folder.",
+      "correct": "That conclusion is well supported. Review the explanation.",
+      "coaching": "Review the coaching feedback, then reconsider the evidence.",
+      "reopened": "Scenario reopened. Choose again.",
+      "complete": "Activity complete.",
+      "restarted": "Activity restarted."
+    }
+  },
+  "scenarios": [
+    {
+      "title": "A Hot Weekend",
+      "photo": {
+        "src": "assets/scenario-1-hot-weekend.jpg",
+        "alt": "A productive vegetable garden with rows of leafy plants.",
+        "credit": "Southern Foodways Alliance, CC BY 2.0, via Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Vegetable_garden_detail.jpg"
+      },
+      "context": "A gardener is helping at a demonstration garden. Temperatures reach 102°F for two days. The tomato plants wilt, but recover after cooler weather returns.",
+      "evidence": [
+        "The heat lasted two days.",
+        "The plants recovered when conditions changed."
+      ],
+      "question": "What conclusion is best supported by this evidence?",
+      "correct": "weather",
+      "choices": [
+        [
+          "weather",
+          "This is primarily a short-term weather event."
+        ],
+        [
+          "climate",
+          "This is evidence of a long-term climate pattern."
+        ],
+        [
+          "more",
+          "There is not enough information to identify even a weather event."
+        ]
+      ],
+      "correctFeedback": "This observation describes weather: conditions over a short period. The event may fit within a broader climate trend, but this single weekend cannot establish that trend.",
+      "coaching": {
+        "climate": "A hot weekend can occur in many climates. To identify a climate pattern, compare repeated observations or records across many years.",
+        "more": "There is enough information to identify a short-term heat event. The uncertainty is whether it reflects a long-term climate trend."
+      },
+      "observation": "Record the date, duration, temperature, plant response, and recovery."
+    },
+    {
+      "title": "Earlier Bloom Over Time",
+      "photo": {
+        "src": "assets/scenario-2-earlier-bloom.jpg",
+        "alt": "Purple lilac flowers blooming on a shrub in a garden.",
+        "credit": "Plrk, public domain, via Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Syringa_vulgaris_in_garden.jpg"
+      },
+      "context": "For 12 years, Lee has recorded the first bloom date of the same lilac. The record shows that flowering has gradually shifted about 11 days earlier.",
+      "evidence": [
+        "The same plant was observed.",
+        "The record spans 12 years.",
+        "The direction of change is gradual and repeated."
+      ],
+      "question": "What conclusion is best supported?",
+      "correct": "climate",
+      "choices": [
+        [
+          "weather",
+          "This is only this year's weather."
+        ],
+        [
+          "climate",
+          "This is evidence consistent with a long-term climate-related shift."
+        ],
+        [
+          "more",
+          "There is no useful evidence yet."
+        ]
+      ],
+      "correctFeedback": "The multi-year record reveals a repeated long-term pattern. Bloom timing can vary with annual weather, but a sustained directional shift is consistent with climate-related change.",
+      "coaching": {
+        "weather": "A single bloom date reflects seasonal weather. Here, however, the evidence is a 12-year pattern rather than one season.",
+        "more": "More data can always strengthen a conclusion, but this consistent 12-year record is meaningful evidence of a long-term shift."
+      },
+      "observation": "Phenology records—such as first leaf, first bloom, or insect emergence—become more useful when methods stay consistent."
+    },
+    {
+      "title": "Early Bloom, Late Freeze",
+      "photo": {
+        "src": "assets/scenario-3-frost-damage.jpg",
+        "alt": "Pear blossoms showing visible frost damage.",
+        "credit": "Rasbak, CC BY-SA 3.0, via Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Pyrus_communis_flowers_frost_damage_(1).jpg"
+      },
+      "context": "After an unusually warm February, fruit trees bloom. A hard freeze two weeks later damages many blossoms. No prior records are available.",
+      "evidence": [
+        "The warm period and freeze occurred in one season.",
+        "There are no observations from earlier years."
+      ],
+      "question": "What can a careful observer conclude?",
+      "correct": "more",
+      "choices": [
+        [
+          "weather",
+          "This is weather, and no further observation is useful."
+        ],
+        [
+          "climate",
+          "This single event proves the climate has changed."
+        ],
+        [
+          "more",
+          "The events are weather; more years of evidence are needed to assess a climate pattern."
+        ]
+      ],
+      "correctFeedback": "The warm spell and freeze are weather events. Without a longer record, we cannot determine whether their timing or frequency reflects a climate trend.",
+      "coaching": {
+        "weather": "You correctly noticed weather, but the answer is incomplete. The scenario asks what can be concluded about the broader pattern, and that requires more evidence.",
+        "climate": "One unusual season does not prove a long-term climate shift. Record it, then compare it with future and historical observations."
+      },
+      "observation": "Uncertainty is not failure. 'I need more evidence' is often the most scientifically responsible conclusion."
+    },
+    {
+      "title": "Maria's Garden in Transition",
+      "photo": {
+        "src": "assets/scenario-4-hydrangea.jpg",
+        "alt": "A blue-flowering bigleaf hydrangea growing in a garden.",
+        "credit": "Stan Shebs, CC BY-SA 3.0, via Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Hydrangea_macrophylla_Blauer_Prinz_1.jpg"
+      },
+      "context": "Maria has gardened in the same location for 20 years. During the last several years, lettuce bolts earlier, hydrangeas scorch more often, and irrigation is needed sooner in summer.",
+      "evidence": [
+        "Several plant responses point toward heat and water stress.",
+        "The changes have repeated across multiple years.",
+        "The garden location and gardener are consistent."
+      ],
+      "question": "Which interpretation is best supported?",
+      "correct": "climate",
+      "choices": [
+        [
+          "weather",
+          "Each symptom should be treated as an unrelated weather event."
+        ],
+        [
+          "climate",
+          "The repeated pattern is consistent with a changing climate, while local factors should still be checked."
+        ],
+        [
+          "more",
+          "Observation has no role until a laboratory test is completed."
+        ]
+      ],
+      "correctFeedback": "Maria's repeated observations form a useful pattern. They do not rule out irrigation problems, plant age, soil changes, or other local factors, but they support investigating climate-related heat and moisture stress.",
+      "coaching": {
+        "weather": "Individual events matter, but the repeated combination of earlier bolting, scorching, and increased watering over several years points beyond one day's weather.",
+        "more": "Additional evidence is useful, but gardeners can begin adaptation by observing, documenting, and testing reasonable responses."
+      },
+      "observation": "Good diagnosis considers both broad trends and site-specific causes."
+    },
+    {
+      "title": "From Observation to Adaptation",
+      "photo": {
+        "src": "assets/scenario-5-adaptation-garden.jpg",
+        "alt": "A mixed garden with a fruit tree, herbs, flowers, vegetables, and hay mulch.",
+        "credit": "Gandydancer, CC BY-SA 3.0, via Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Permaculture_garden_with_a_fruit_tree,_herbs,_flowers_and_vetetables_mulched_with_hay.JPG"
+      },
+      "context": "A gardener notices that a community garden bed dries sooner than expected and seedlings experience afternoon heat stress.",
+      "evidence": [
+        "The observation is specific.",
+        "The cause has not yet been confirmed.",
+        "A low-risk response can be tested."
+      ],
+      "question": "What is the strongest next step?",
+      "correct": "observe",
+      "choices": [
+        [
+          "replace",
+          "Immediately replace every plant with a drought-tolerant species."
+        ],
+        [
+          "ignore",
+          "Ignore the observation until climate projections prove the cause."
+        ],
+        [
+          "observe",
+          "Record conditions and test a small adaptation, such as mulch, adjusted irrigation timing, or temporary shade."
+        ]
+      ],
+      "correctFeedback": "Observation can lead directly to a small, testable adaptation. Recording the results helps the gardener learn whether the response improves plant performance.",
+      "coaching": {
+        "replace": "Large, irreversible changes are not always the best first response. Begin with a proportionate, testable action.",
+        "ignore": "Gardeners do not need perfect certainty before trying a low-risk adaptation. Observation and experimentation can occur together."
+      },
+      "observation": "Observe. Record. Test. Reflect. These are practical first steps in climate adaptation."
+    }
+  ]
+}
